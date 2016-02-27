@@ -1,0 +1,51 @@
+DELETE FROM mapping_info WHERE app_id='71' AND category='MAS_NEW';INSERT INTO mapping_info(app_id, category,mapping_xml) VALUES('71','MAS_NEW','<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" >
+<class entity-name="MAS_NEW" table="MAS_NEW" lazy="true">
+    <id name="MN_ID" column="MN_ID" type="int">
+      <generator class="native"/>
+    </id>
+<property   name = "CREATED_BY"  type="String" />
+<property   name = "CREATED_BY_NAME"  type="String" />
+<property   name = "CREATED_DATE"  type="Timestamp" />
+<property   name = "MODIFIED_BY"  type="String" />
+<property   name = "MODIFIED_BY_NAME"  type="String" />
+<property   name = "MODIFIED_DATE"  type="Timestamp" />
+<property   name = "VERSION_NO"  type="Int32" />
+<property   name = "SYSTEM_ID"  type="String" />
+<property   name = "SYSTEM_NAME"  type="String" />
+<property   name = "CREATED_BY_STS_ID"  type="String" />
+<property   name = "MODIFIED_BY_STS_ID"  type="String" />
+<property   name = "PRCT_ID"  type="String" />
+<property   name = "STATUS"  type="String" />
+<property   name = "PROCESS_STATUS"  type="String" />
+<property   name = "DT_CODE"  type="String" />
+<property   name = "DT_DESCRIPTION"  type="String" />
+<property   name = "DTT_CODE"  type="String" />
+<property   name = "DTT_DESCRIPTION"  type="String" />
+</class>
+</hibernate-mapping>');INSERT INTO mapping_info_changes(category, mapping_xml, modified_date) VALUES('MAS_NEW','<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" >
+<class entity-name="MAS_NEW" table="MAS_NEW" lazy="true">
+    <id name="MN_ID" column="MN_ID" type="int">
+      <generator class="native"/>
+    </id>
+<property   name = "CREATED_BY"  type="String" />
+<property   name = "CREATED_BY_NAME"  type="String" />
+<property   name = "CREATED_DATE"  type="Timestamp" />
+<property   name = "MODIFIED_BY"  type="String" />
+<property   name = "MODIFIED_BY_NAME"  type="String" />
+<property   name = "MODIFIED_DATE"  type="Timestamp" />
+<property   name = "VERSION_NO"  type="Int32" />
+<property   name = "SYSTEM_ID"  type="String" />
+<property   name = "SYSTEM_NAME"  type="String" />
+<property   name = "CREATED_BY_STS_ID"  type="String" />
+<property   name = "MODIFIED_BY_STS_ID"  type="String" />
+<property   name = "PRCT_ID"  type="String" />
+<property   name = "STATUS"  type="String" />
+<property   name = "PROCESS_STATUS"  type="String" />
+<property   name = "DT_CODE"  type="String" />
+<property   name = "DT_DESCRIPTION"  type="String" />
+<property   name = "DTT_CODE"  type="String" />
+<property   name = "DTT_DESCRIPTION"  type="String" />
+</class>
+</hibernate-mapping>',DATEOF(NOW()));
